@@ -285,4 +285,12 @@ border: 0;
 border-radius: 5px;
 }
 
+/* footer section styles */
+footer p{
+    margin: 50px 0 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
