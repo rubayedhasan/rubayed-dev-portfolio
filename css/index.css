@@ -138,15 +138,14 @@ nav ul li a{
     border: 1px solid #FFF8F3;
 }
 
-.about .about-title{
+.section-title{
     color: #181818;
     font-size: 35px;
     font-weight: 700;
-    text-transform: uppercase;
     margin-bottom: 30px;
 }
 
-.about .about-description{
+.section-description{
     color: #757575;
     font-size: 18px;
     font-weight: 400;
