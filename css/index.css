@@ -39,6 +39,7 @@ a{
 
 /* header section styles  */
 header{
+    background-color: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
@@ -125,4 +126,47 @@ nav ul li a{
     padding: 20px 25px;
     border: 1px solid #FD6E0A;
     border-radius: 5px;
+}
+
+/* about section styles  */
+.about{
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px 155px;
+    background-color: #FFF8F3;
+    border-radius: 15px;
+    border: 1px solid #FFF8F3;
+}
+
+.about .about-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about .about-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about .about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.about-info .info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
 }
