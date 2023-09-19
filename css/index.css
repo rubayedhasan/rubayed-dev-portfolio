@@ -385,6 +385,26 @@ footer p{
     flex-direction: column;
     gap: 0;
 }
+
+/* resume section styles */
+.resume{
+    margin-top: 100px;
+}
+
+.resume-context-container{
+    gap: 0;
+    margin-top: 0;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.education-section{
+    margin-top: 30px;
+}
+
+.title {
+    margin-top: 20px;
+}
 }
 
 
