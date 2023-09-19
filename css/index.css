@@ -405,7 +405,6 @@ footer p{
 .title {
     margin-top: 20px;
 }
-}
 
 /* contact section styles  */
 .contact{
@@ -414,7 +413,7 @@ footer p{
 
 .contact-container{
     gap: 0;
-    padding: 80px 0px;
+    padding: 50px 0px 40px;
     flex-direction: column-reverse;
 }
 
@@ -445,6 +444,12 @@ textarea{
 
 .social-icon a{
     font-size: 22px;
+}
+
+/* footer section styles  */
+footer p {
+    margin: 30px 0;
+}
 }
 
 
