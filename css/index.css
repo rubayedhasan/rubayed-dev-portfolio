@@ -374,6 +374,17 @@ footer p{
     .about-info .info-title {
         margin-bottom: 0;
     }
+
+    /* what-i-do section styles  */
+    .what-i-do{
+        margin-top: 100px;
+    }
+
+    
+.skills-container{
+    flex-direction: column;
+    gap: 0;
+}
 }
 
 
