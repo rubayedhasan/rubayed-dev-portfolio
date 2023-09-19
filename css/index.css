@@ -306,7 +306,6 @@ footer p{
 @media screen and (max-width:575px) {
     .container{
         width: 100%;
-        margin: 0 auto;
     }
 
     .primary-btn{
@@ -359,4 +358,25 @@ footer p{
     .secondary-btn{
         padding: 20px 44px;
     }
+
+    /* about section styles */
+    .about{
+        margin-top: 100px;
+        padding: 60px 0;
+    }
+
+    .about .about-info-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .about-info .info-title {
+        margin-bottom: 0;
+    }
+}
+
+
+.hide{
+    display: none;
 }
