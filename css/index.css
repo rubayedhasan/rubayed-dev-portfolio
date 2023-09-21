@@ -157,7 +157,7 @@ nav ul li a{
 .about{
     text-align: center;
     margin-top: 130px;
-    padding: 130px 155px;
+    padding: 130px;
     background-color: #FFF8F3;
     border-radius: 15px;
     border: 1px solid #FFF8F3;
@@ -306,6 +306,13 @@ footer p{
 @media screen and (min-width:1400px) {
     .container{
         width: 1320px;
+        margin: 0 auto;
+    }
+    .about,
+    .what-i-do,
+    .resume,
+    .contact{
+        margin-top: 130px;
     }
     
 }
