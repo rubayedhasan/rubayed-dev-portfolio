@@ -302,6 +302,14 @@ footer p{
 
 
 /* =======================responsive styles=================== */
+/* responsive styles for extra extra large devices  */
+@media screen and (min-width:1400px) {
+    .container{
+        width: 1320px;
+    }
+    
+}
+
 /* responsive styles for large devices */
 @media screen and (min-width:992px) and (max-width:1199px) {
     .container{
