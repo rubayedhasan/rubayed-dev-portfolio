@@ -302,6 +302,70 @@ footer p{
 
 
 /* =======================responsive styles=================== */
+/* responsive styles for small devices */
+@media screen and (min-width:576px) and (max-width:767px) {
+    .container{
+        width: 540px;
+    }
+
+    /* header section styles  */
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    /* about section styles  */
+    .about {
+        margin-top: 100px;
+        padding: 90px 20px;
+    }
+
+    .about .about-info-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* what-i-do section styles  */
+    .what-i-do {
+        margin-top: 100px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    /* resume section styles  */
+    .resume {
+        margin-top: 100px;
+    }
+
+    .resume-context-container {
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 30px;
+    }
+    
+    /* contact section styles  */
+    .contact {
+        margin-top: 100px;
+    }
+
+    .contact-container {
+        gap: 70px;
+        padding: 90px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .contact input[type="text"], input[type="email"], textarea {
+        width: 80%;
+    } 
+    
+}
+
 /* responsive styles for extra small devices */
 @media screen and (max-width:575px) {
     .container{
@@ -310,6 +374,10 @@ footer p{
 
     .primary-btn{
         padding: 20px;
+    }
+
+    .section-description {
+        padding: 0 20px;
     }
 /* header section  */
     header{
@@ -386,6 +454,10 @@ footer p{
     gap: 0;
 }
 
+.skills {
+    margin: 20px;
+}
+
 /* resume section styles */
 .resume{
     margin-top: 100px;
@@ -404,6 +476,10 @@ footer p{
 
 .title {
     margin-top: 20px;
+}
+
+.description {
+    padding: 0 20px;
 }
 
 /* contact section styles  */
