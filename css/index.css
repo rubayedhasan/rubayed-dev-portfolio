@@ -302,6 +302,75 @@ footer p{
 
 
 /* =======================responsive styles=================== */
+/* responsive styles  for medium devices */
+@media screen and (min-width:768px) and (max-width:991px) {
+ .container{
+    width: 720px;
+ }   
+
+ .primary-btn {
+    padding: 20px;
+}
+
+ /* header section styles  */
+ .banner{
+    flex-direction: row-reverse;
+    padding: 50px 0;
+ }
+
+ .banner-content a {
+    font-size: 16px;
+    margin-right: 0;
+    margin-right: 8px;
+}
+
+ .banner img {
+    width: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+/* about section styles  */
+.about {
+    padding: 60px 30px;
+}
+
+.about .about-info-container {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-info .info-title {
+    margin-bottom: 0;
+}
+
+/* what-i-do section styles  */
+.skills-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills {
+    width: 35%;
+}
+
+/* resume section styles  */
+.resume-context-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+/* contact section styles  */
+.contact-container {
+    display: block;
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+    width: 90%;
+}
+
+}
+
 /* responsive styles for small devices */
 @media screen and (min-width:576px) and (max-width:767px) {
     .container{
